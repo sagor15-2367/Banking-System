@@ -6,6 +6,7 @@ document.getElementById('btn-Deposit').addEventListener('click', function () {
     const newDepositAmountString = depositField.value;
     const newDepositAmount = parseFloat(newDepositAmountString);
 
+    
     // step:3 get the current deposit total
     // for non-input (element other then input ,textarea) use innerText to get the text
     const depositTotalElement = document.getElementById('deposit-total');
