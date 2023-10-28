@@ -14,10 +14,11 @@ document.getElementById('btn-submit').addEventListener('click', function () {
 
     // DANGER: do not verify email password on the client side 
     // step:4 verify email and password  and check whether valid user or not
-    if (email === 'sagor@gmail.com' && password === '111111') {
-        console.log('valid user');
+    if (email === 'sagor@gmail.com' && password === '123456') {
+        window.location.href='Bank-dashBord.html';
     }
     else {
-        console.log('unvalid user');
+        // console.log('unvalid user');
+        alert('Password invalid');
     }
 })
